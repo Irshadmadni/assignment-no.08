@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 08</title>
+    <style type="text/css">
+        fieldset {
+            width: 500px;
+            display:inline-table;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Feedback Form</h1>
+    <fieldset>
+        <legend>
+            Login details
+        </legend>
+        <label>Name</label>
+        <input type="text" name="Name">
+        <br>
+        <label for="Email">Email</label>
+        <input type="email">
+        <br>
+        <label for="Password">Password</label>
+        <input type="password">
+    </fieldset>
+    <fieldset>
+        <legend>
+            Your Feedback
+        </legend>
+        Please check the all emotions that apply to You:
+       <br>
+        <label for="Angry">Angry</label>
+        <input type="checkbox">
+        <br>
+         <label for="Happy">Happy</label>
+        <input type="checkbox">
+        <br> 
+        <label for="sad">sad</label>
+        <input type="checkbox">
+        <br>
+        <label for="Ambivalent">Ambivalent</label>
+        <input type="checkbox">
+        <br>
+        How satisfied were you wth our service?
+        <br>
+        <input type="checkbox">
+    </fieldset>
+    <h1>Fieldset Form </h1><form action="" method="post">
+        <fieldset>
+            <legend>
+                The First Section
+            </legend>
+            <fieldset>
+                <legend>
+                    The First Subsection
+                </legend>
+                <label for="field 1">field 1</label>
+                <input type="text" style="width: 700px;">
+            </fieldset>
+            <label for="field1">field one</label>
+            <input type="text" style="width: 700px;">
+        </fieldset>
+        <fieldset>
+            <legend>
+                Subsection II
+            </legend>
+            <fieldset>
+                <legend>
+                    Subsection II A
+                </legend>
+                <label for="field 1">field 1</label>
+                <input type="text" style="width: 700px;">
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Subsection II B
+                </legend>
+                <label for="field 1">field 1</label>
+                <input type="text" style="width: 700px;">
+            </fieldset>
+        </fieldset>
+    </form>
+<h1>
+Registration Form
+</h1>
+<form action="" method="post" style="background-color: rgb(229, 123, 229); padding-left: 50px;">
+    <div class="form container">
+    <label>
+        First Name:
+        <input type="text" name="first Name" placeholder="First Name" maxlength="30" required="required"> (max 30 characters a-z and A-Z)
+    </label>
+    <br><br>
+    <label>
+        Last Name:
+        <input type="text" name="Last Name" placeholder="Last Name" maxlength="30" required="required"> (max 30 characters a-z and A-Z)
+    </label>
+    <br><br>
+    <label>
+        DTE OF BIRTH:
+        <input type="number" style="width: 50px;" placeholder="DD" required="required">
+        <input type="number" style="width: 50px;" placeholder="MM" required="required">
+        <input type="number" style="width: 70px;" placeholder="YYYY" required="required">
+    </label>
+    <br><br>
+    <label>
+        Gender:
+        <input type="radio" name="Gender" id="Male" required="required">Male
+        <input type="radio" name="Gender" id="Female" required="required">Female
+    </label>
+    <br><br>
+    <label>
+    MOBILE NUMBER:
+    <input type="number" maxlength="11" placeholder="Mobile no." required="required"> (11 digit Number)
+    </label>
+    <br><br>
+    <label>
+    EMAIL ID:
+    <input type="email" placeholder="Email" required="required">
+    </label> 
+    <br><br>
+    <label>
+        Address:
+        <textarea name="Address" id="Adderss" cols="15" rows="05" placeholder="Address"></textarea>
+    </label>
+    <br><br>
+    <label>
+    City:
+    <input type="text" placeholder="Select City"> (max 30 characters a-z and A-Z)
+    </label>
+    <br><br>
+    <label>
+        Pin Code
+        <input type="number" placeholder="Pin Code"> (6-8 Characters)
+    </label>
+    <br><br>
+    <label>
+        Province:
+        <select name="Province" id="province">
+            <option value="Select">Select</option>
+            <option value="Punjab">Punjab</option>
+            <option value="Sindh">Sindh</option>
+            <option value="kheber pakhtunkha">kheber pakhtunkha</option>
+            <option value="Balochistan">Balochistan</option>
+            <option value="Gilgit Bultistan">Gilgit Bultistan</option>
+            <option value="Fata">Fata</option>
+        </select>
+    </label>
+    <br><br>
+    <label>
+        Country:
+        <select name="Country" id="Country"></select>
+    </label>
+    <br><br>
+    <label>
+        HOBBIES:
+        <input type="checkbox" name="Drawing">Drawing
+        <input type="checkbox" name="Reading Books">Reading Books
+        <input type="checkbox" name="Playing">Playing
+        <input type="checkbox" name="Writing">Writing
+        <input type="checkbox" name="Others">Others
+        <input type="text">
+    </label>
+    <br><br>
+    <label>
+       QUALIFICATIN:
+       <table width="200" align="center" style="text-align: center;">
+        <tr>
+            <td>Sr.No</td>
+            <td>Examination</td>
+            <td>Board</td>
+            <td>Percentage</td>
+            <td>Passing Year</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>SSC</td>
+            <td><input type="text" maxlength="10"></td>
+            <td><input type="text" maxlength="10"></td>
+            <td><input type="text" maxlength="10"></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>HSSD</td>
+            <td><input type="text" maxlength="10"></td>
+            <td><input type="text" maxlength="10"></td>
+            <td><input type="text" maxlength="10"></td>
+            
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Graduatin</td>
+            <td><input type="text" maxlength="10"></td>
+            <td><input type="text" maxlength="10"></td>
+            <td><input type="text" maxlength="10"></td>
+            
+        </tr>
+        <tr><td>4</td>
+            <td>Masters</td>
+            <td><input type="text" maxlength="10"></td>
+            <td><input type="text" maxlength="10"></td>
+            <td><input type="text" maxlength="10"></td>
+           
+
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Others</td>
+            <td><input type="text" maxlength="10"></td>
+            <td><input type="text" maxlength="10"></td>
+            <td><input type="text" maxlength="10"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>(10 Char Max)</td>
+            <td>(Upto 2 decimal)</td>
+        </tr>
+       </table> 
+    </label>
+    <br><br>
+    <label>
+        COURSE<br>APLLIED FOR:
+        <input type="radio" name="COURSE" id="BCA">BCA
+        <input type="radio" name="COURSE" id="B.COM">B.COM
+        <input type="radio" name="COURSE" id="BSC">BSC
+        <input type="radio" name="COURSE" id="B.A">B.A
+    </label>
+    <br><br>
+    <input type="submit" name="submit" style="margin-left: 300px; background-color: crimson; color: white;" margin>
+    <input type="reset" name="Reset" style="background-color: brown;color: white;" margin>
+</form>
+</div>
+</body>
+</html>
